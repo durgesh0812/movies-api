@@ -6,7 +6,7 @@ let searchbtn=document.querySelector("#search1")
 searchbtn.addEventListener("click",()=>{
     console.log("button pressed")
     sendapirequest()
-    sendapirequest1()
+   
 }) 
 
 async function sendapirequest(){
